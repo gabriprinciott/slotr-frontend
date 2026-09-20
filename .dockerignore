@@ -1,0 +1,16 @@
+.git
+.github
+.idea
+.vscode
+.dart_tool
+.agents
+.claude
+build/
+android/
+ios/
+linux/
+macos/
+windows/
+snap/
+test/
+*.md

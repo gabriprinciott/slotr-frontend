@@ -1,0 +1,45 @@
+{
+  "@@locale": "en",
+  "appTitle": "Slotr",
+  "dashboard": "Dashboard",
+  "bookings": "Bookings",
+  "connected": "Connected",
+  "disconnected": "Disconnected",
+  "bookingConflictTitle": "Booking Conflict",
+  "bookingConflictDesc": "The slot was locked by another user.",
+  "errorTitle": "Error",
+  "errorDesc": "An internal error occurred.",
+  "successTitle": "Success",
+  "successDesc": "Booking confirmed successfully!",
+  "calendarAndSlots": "CALENDAR & TIME SLOTS",
+  "todayBookings": "TODAY'S BOOKINGS",
+  "noBookingsToday": "No bookings for today.",
+  "cancel": "Cancel",
+  "bookingForm": "BOOKING FORM",
+  "insertCheckoutData": "Enter checkout details",
+  "remainingTime": "Time left: {seconds}s",
+  "@remainingTime": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "timerTooltipDesc": "This timer prevents the slot from being locked indefinitely for other users. It resets when you type.",
+  "fullName": "Full Name *",
+  "requiredField": "Required field",
+  "selectedTimeSlot": "Selected Time Slot *",
+  "notes": "Notes",
+  "notesHint": "Support session request...",
+  "confirm": "Confirm",
+  "selectTimeSlotToContinue": "Select a time slot to continue",
+  "available": "AVAILABLE",
+  "selected": "SELECTED",
+  "locked": "LOCKED",
+  "booked": "BOOKED",
+  "noConnectionToServer": "No connection to the server.",
+  "retry": "Retry",
+  "networkErrorDesc": "Connection error. Check your connection and try again.",
+  "serverErrorDesc": "An internal problem occurred. Please try again later.",
+  "cancelBookingConfirmText": "Do you really want to cancel this booking?"
+}

@@ -1,0 +1,11 @@
+services:
+  frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: slotr_frontend
+    ports:
+      - "${FRONTEND_PORT:-8080}:80"
+    env_file:
+      - .env
+    restart: unless-stopped
